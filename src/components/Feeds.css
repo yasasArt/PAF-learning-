@@ -1,0 +1,8 @@
+/* src/components/Feed.css */
+.feed {
+  width: 100%;
+  height: calc(100vh - 50px); /* Adjust 50px to match the height of your navbar */
+  overflow-y: auto; /* To make the feed scrollable */
+  padding: 10px;
+  }
+  

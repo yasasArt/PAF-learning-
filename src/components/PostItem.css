@@ -1,0 +1,56 @@
+/* src/components/PostCard.css */
+.post-card {
+    width: 75%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .post-media img, .post-media video {
+    width: 100%; /* Ensure media (images/videos) take up full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .post-description {
+    margin: 10px 0;
+  }
+  
+  .post-actions button {
+    margin-right: 10px;
+  }
+  
+  .comment-section input {
+    width: 80%;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .comments {
+    margin-top: 10px;
+  }
+  
+  .comment {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+  
